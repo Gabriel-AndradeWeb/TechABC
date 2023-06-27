@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    margin-top: 5px;
+}
+
+.a-home{
+    color: #FC3232;
+    padding: 12px;
+}
+
+.a-alfabeto{
+    color: #fbff05;
+}
+
+.a-atividade{
+    color: #00FF38;
+}
+
+.a-games{
+    color: #E542FF;
+}
+
+a:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Carter One', cursive;
+    background: #00C2FF;
+    height: 8vh;
+}
+
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin-left: 50%;
+}
+
+.nav-list li{
+    letter-spacing: 2px;
+    margin: 20px;
+}
+
+main{
+    background-color: #4ED1FD;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 49%;
+    
+}
+
+.quadrado-alfabeto{
+    border-radius: 40px;
+    background-image: linear-gradient(
+        #622CFD 40%,
+        #411A97 70%
+    );
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.div-alfabeto{
+    margin: 4%  ;
+    margin-right: 17px;
+}
+
+
+h1{
+    font-size: 5vh;
+    text-align: center;
+    -webkit-text-stroke-color: #0000004f;
+    -webkit-text-stroke-width: 1px;
+    font-family: 'Carter One', cursive;
+}
+
+.h1-alfabeto{
+    color: rgb(255, 251, 0);
+}
+
+.img-alfabeto{
+    width: 100%;
+    border-radius: 30px;
+    height: 80%;
+    margin: 10px;
+}
+
+.img-alfabeto:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.h1-atividade{
+    color: #00FF38;
+    margin: 40px;
+}
+
+.quandrado-atividade{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: linear-gradient(
+        #100DAC 40%,
+        #113ddd 70%
+    );
+    border-radius: 40px;
+    height: 60vh;
+}
+
+
+.caixa-atividade{
+    background-color: #000;
+    border-radius: 25px;
+    width: 85%;
+    height: 150px;
+    margin: 20px;
+    margin-top: 70px;
+}
+
+.img-atividade{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    border: #000 2px solid;
+}
+
+.img-atividade:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.h1-games{
+    color: #fd2cda;
+    margin: 40px;
+}
+
+.quandrado-games{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: linear-gradient(
+        #dd6d11 40%, 
+        #ac470d 70% 
+    );
+    border-radius: 40px;
+    height: 60vh;
+    margin-bottom: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #00C2FF;
+}
+
+.link-rodape{
+    margin-left: 20px;
+}
+
