@@ -28,6 +28,14 @@
     color: #E542FF;
 }
 
+.a-games{
+    color: #E542FF;
+}
+
+.a-avaliacao{
+    color: #ff7300; 
+}
+
 a:hover{
     opacity: 0.8;
     transition: 0.5s;
